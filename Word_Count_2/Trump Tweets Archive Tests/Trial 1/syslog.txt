@@ -1,0 +1,77 @@
+2021-09-11 03:21:53,813 INFO [main] org.apache.hadoop.security.SecurityUtil: Updating Configuration
+2021-09-11 03:21:53,907 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Loaded properties from hadoop-metrics2.properties
+2021-09-11 03:21:54,025 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+2021-09-11 03:21:54,025 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2021-09-11 03:21:54,089 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens: [Kind: mapreduce.job, Service: job_1631319189765_0011, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@5fe94a96)]
+2021-09-11 03:21:54,441 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2021-09-11 03:21:54,701 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: C:/hadoop-3.2.2/tmp/usercache/sammat/appcache/application_1631319189765_0011
+2021-09-11 03:21:55,116 INFO [main] org.apache.hadoop.mapred.YarnChild: 
+/************************************************************
+[system properties]
+os.name: Windows 10
+os.version: 10.0
+java.home: C:\Progra~1\Java\jdk1.8.0_291\jre
+java.runtime.version: 1.8.0_291-b10
+java.vendor: Oracle Corporation
+java.version: 1.8.0_291
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.class.path: C:/hadoop-3.2.2/tmp/usercache/sammat/appcache/application_1631319189765_0011/container_1631319189765_0011_01_000003/classpath-1997844598614926902.jar;job.jar/job.jar;job.jar/lib/*;C:/hadoop-3.2.2/tmp/usercache/sammat/appcache/application_1631319189765_0011/container_1631319189765_0011_01_000003/classpath-1997844598614926902.jar;C:/hadoop-3.2.2/tmp/usercache/sammat/appcache/application_1631319189765_0011/container_1631319189765_0011_01_000003/job.jar
+java.io.tmpdir: C:/hadoop-3.2.2/tmp/usercache/sammat/appcache/application_1631319189765_0011/container_1631319189765_0011_01_000003/tmp
+user.dir: C:\hadoop-3.2.2\tmp\usercache\sammat\appcache\application_1631319189765_0011\container_1631319189765_0011_01_000003
+user.name: sammat
+************************************************************/
+2021-09-11 03:21:55,117 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2021-09-11 03:21:55,534 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2021-09-11 03:21:55,535 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021-09-11 03:21:55,545 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2021-09-11 03:21:55,578 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@25a6944c
+2021-09-11 03:21:55,621 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@13518f37
+2021-09-11 03:21:55,623 WARN [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system already initialized!
+2021-09-11 03:21:56,251 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2021-09-11 03:21:56,765 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1631319189765_0011_r_000000_0 is done. And is in the process of committing
+2021-09-11 03:21:56,790 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1631319189765_0011_r_000000_0 is allowed to commit now
+2021-09-11 03:21:56,875 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1631319189765_0011_r_000000_0' to hdfs://localhost:9820/user/sammat/tttestout1
+2021-09-11 03:21:56,938 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1631319189765_0011_r_000000_0' done.
+2021-09-11 03:21:56,949 INFO [main] org.apache.hadoop.mapred.Task: Final Counters for attempt_1631319189765_0011_r_000000_0: Counters: 35
+	File System Counters
+		FILE: Number of bytes read=2511795
+		FILE: Number of bytes written=2747281
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=0
+		HDFS: Number of bytes written=1981605
+		HDFS: Number of read operations=5
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=135110
+		Reduce shuffle bytes=2511795
+		Reduce input records=135110
+		Reduce output records=135110
+		Spilled Records=135110
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=40
+		CPU time spent (ms)=2029
+		Physical memory (bytes) snapshot=247357440
+		Virtual memory (bytes) snapshot=414801920
+		Total committed heap usage (bytes)=217579520
+		Peak Reduce Physical memory (bytes)=247357440
+		Peak Reduce Virtual memory (bytes)=414801920
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=1981605
+2021-09-11 03:21:56,950 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2021-09-11 03:21:56,951 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2021-09-11 03:21:56,951 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.
